@@ -2,6 +2,7 @@
 # Ignora archivos
 .DS_store
 package.json
+package-lock.json
 #Ignora carpetas
 node_modules
 #Ignorar subcarpetas
