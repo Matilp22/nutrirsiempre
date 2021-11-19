@@ -3,7 +3,7 @@
 .DS_store
 package.json
 package-lock.json
-#Ignora carpetas
+#Ignora carpeta
 node_modules
 #Ignorar subcarpetas
 nombrecarpeta/nombresubcarpeta
