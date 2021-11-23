@@ -1,20 +1,19 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+
+body{
+    margin: 2px 1px 1px 1px;
+    padding: 0px;
+    background-color:rgb(221, 255, 152);
+    background-image:url("/imagenes/PLANTILLA_AMARILLA.jpg")
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import "scss/bootstrap.scss"
+.container-table{
+    display: grid;
+    grid-template-columns: (7, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+}
