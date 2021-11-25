@@ -12,8 +12,11 @@ body {
   background-image: url("../imagenes/PLANTILLA_VERDE.jpg"); }
 
 header {
-  margin: 5px;
-  padding: 10px; }
+  margin: 20px;
+  padding: 5px; }
+
+a {
+  margin: 10px 0px 10px 0px; }
 
 .barra {
   display: flex;
@@ -21,8 +24,11 @@ header {
   justify-content: start;
   align-items: center; }
   .barra .navegacion {
+    height: 10px;
+    width: 100vh;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-around; }
 
 .container-table {
   display: grid;
