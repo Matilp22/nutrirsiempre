@@ -59,6 +59,12 @@ section {
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: start; }
+  .contenedor .videoRedesComentarios {
+    width: 100%;
+    margin: 15px;
+    padding: 42px;
+    display: flex;
+    align-content: space-between; }
 
 .container-table {
   display: grid;
