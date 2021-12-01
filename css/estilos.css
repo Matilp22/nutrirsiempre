@@ -73,8 +73,8 @@ section {
   justify-items: center; }
 
 .piePagina{
-  display=flex
-  justify-content=center;
+  display= flex;
+  justify-content= center;
   text-aling= center;
   background-color= rgb 226, 233, 218;
 ;
