@@ -72,6 +72,13 @@ section {
   grid-template-rows: auto;
   justify-items: center; }
 
+.piePagina{
+  display=flex
+  justify-content=center;
+  text-aling= center;
+  background-color= rgba(226,233,218,255);
+
+}
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
