@@ -7,7 +7,7 @@ body{
     margin: 2px 3px 1px 3px;
     padding: 10px;
     font-family: 'Rubik', sans-serif;
-    width: 1200px;
+    width: 1223px;
     height: 1200px;
     background-color:rgb(221, 255, 152);
     background-image:url("../imagenes/PLANTILLA_VERDE.jpg")
@@ -27,7 +27,7 @@ a{
     transition: all 2s;
 }
 aside{
-    width: 500px;
+    width: 523px;
 }
 section{
     width: 626px;
@@ -52,7 +52,7 @@ section{
     main{
         padding: 10px;
         margin: 15px;
-        width: 1200;
+        width: 1223px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -71,7 +71,7 @@ section{
         }
     }
     .videoRedesComentarios{
-        width: 1200;
+        width: 1223px;
         margin: 15px;
         padding: 10px;
         display: flex;
@@ -119,12 +119,14 @@ section{
     justify-items: center;
 }
 .piePagina{
-    width: 1200px;
+    width: 1325px;
+    height: 40px;
     padding: 0px;
     margin: 0px;
     display : flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(226, 233, 218);
     
 }
