@@ -215,3 +215,42 @@ h3 {
     text-align: center;
     border-style: dashed;
     border-color: #e2e9da; }
+
+.contenedorNd {
+  margin: 20px;
+  width: 1325px;
+  height: 100vh;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contenedorNd #pNd {
+    width: 900px;
+    margin: 50px 0px 25px 0px;
+    padding: 3px;
+    font-size: 22px; }
+    .contenedorNd #pNd a {
+      color: #2d2e2b; }
+  .contenedorNd .divNd {
+    margin: 25px 0px 50px 0px;
+    padding: 3px;
+    width: 900px;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-style: double;
+    border-color: #e2e9da; }
+    .contenedorNd .divNd .divStaff {
+      margin: 25px 0px 50px 0px;
+      background-color: #e2e9da;
+      width: 900px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      text-align: center; }
