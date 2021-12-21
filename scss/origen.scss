@@ -312,3 +312,93 @@ h3{
         }
     }
 }
+
+.calendario{
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+    ol {
+        width: 800x;
+        height: 800px;
+        background-color: $colorBase;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(7, 1fr);
+        list-style: none;
+        padding: 0;
+        .primerDia{
+            grid-column-start: 6;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="container-table">
+        <table >
+            <tr>
+                <td>Lunes 1</td>
+                <td>Martes 2</td>
+                <td>Miercoles 3</td>
+                <td>Jueves 4</td>
+                <td>Viernes 5</td>
+                <td>Sabado 6</td>
+                <td>Domingo 7</td>
+            </tr>
+            <tr>
+                <td>Lunes 8</td>
+                <td>Martes 9</td>
+                <td>Miercoles 10</td>
+                <td>Jueves 11</td>
+                <td>Viernes 12</td>
+                <td>Sabado 13</td>
+                <td>Domingo 14</td>
+            </tr>
+            <tr>
+                <td>Lunes 15</td>
+                <td>Martes 16</td>
+                <td>Miercoles 17</td>
+                <td>Jueves 18</td>
+                <td>Viernes 19</td>
+                <td>Sabado 20</td>
+                <td>Domingo 21</td>
+            </tr>
+            <tr>
+                <td>Lunes 22</td>
+                <td>Martes 23</td>
+                <td>Miercoles 24</td>
+                <td>Jueves 25</td>
+                <td>Viernes 26</td>
+                <td>Sabado 27</td>
+                <td>Domingo 28</td>
+         </tr>
+            <tr>
+                <td>Lunes 29</td>
+                <td>Martes 30</td>
+                <td>Miercoles 1 de Diciembre</td>
+                <td>Jueves 2 de Diciembre</td>
+                <td>Viernes 3 de Diciembre</td>
+                <td>Sabado 4 de Diciembre</td>
+                <td>Domingo 5 de Diciembre</td>
+            </tr>
+        </table>*/
