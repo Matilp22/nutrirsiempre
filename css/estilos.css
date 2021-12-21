@@ -7,8 +7,8 @@ body {
   padding: 10px;
   font-family: 'Rubik', sans-serif;
   width: 1223px;
-  height: 1200px;
-  background-color: #ddff98;
+  height: 100vh;
+  background-color: #e2e9da;
   background-image: url("../imagenes/PLANTILLA_VERDE.jpg"); }
 
 header {
@@ -30,6 +30,12 @@ aside {
 section {
   width: 626px; }
 
+h2 {
+  color: #5e615b; }
+
+h3 {
+  color: #2d2e2b; }
+
 .contenedor {
   display: grid;
   flex-wrap: wrap;
@@ -37,7 +43,7 @@ section {
   .contenedor .barra {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center; }
     .contenedor .barra .navegacion {
       margin: 10px 150px 10px 150px;
@@ -111,3 +117,28 @@ section {
   align-items: center;
   text-align: center;
   background-color: #e2e9da; }
+
+.contenedorQuien {
+  margin: 5px;
+  width: 1325px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .contenedorQuien .textoQuien {
+    margin: 3px;
+    padding: 3px;
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-style: dashed;
+    border-color: #e2e9da; }
+    .contenedorQuien .textoQuien .imgQuien {
+      width: 650px;
+      height: 400px;
+      padding: 3px;
+      margin: 3px; }

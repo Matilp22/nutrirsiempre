@@ -2,14 +2,17 @@
     margin: 0px;
     padding:0px
 }
+$colorBase: rgb(226, 233, 218);
+$colorh2: rgb(94, 97, 91);
+$colorh3: rgb(45, 46, 43);
 
 body{
     margin: 2px 3px 1px 3px;
     padding: 10px;
     font-family: 'Rubik', sans-serif;
     width: 1223px;
-    height: 1200px;
-    background-color:rgb(221, 255, 152);
+    height: 100vh;
+    background-color: $colorBase;
     background-image:url("../imagenes/PLANTILLA_VERDE.jpg")
 }
 
@@ -32,6 +35,14 @@ aside{
 section{
     width: 626px;
 }
+h2{
+    color: $colorh2;
+}
+
+h3{
+    color: $colorh3;
+}
+
 
 .contenedor{
     display: grid;
@@ -40,7 +51,7 @@ section{
     .barra{
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: space-around;
         align-items: center;
         .navegacion{
             margin: 10px 150px 10px 150px;
@@ -127,6 +138,38 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(226, 233, 218);
+    background-color: $colorBase;
     
+}
+
+//diseño "quien soy?"
+
+
+.contenedorQuien{
+    margin: 5px;
+    width: 1325px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .textoQuien{
+        margin: 3px;
+        padding: 3px;
+        width: 900px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        border-style:dashed;
+        border-color: $colorBase;
+    .imgQuien{
+        width: 650px;
+        height: 400px;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    }
 }
