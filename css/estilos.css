@@ -142,3 +142,37 @@ h3 {
       height: 400px;
       padding: 3px;
       margin: 3px; }
+
+.contenedorStaff {
+  margin: 20px;
+  width: 1325px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contenedorStaff #pstaff {
+    width: 900px;
+    margin: 50px 0px 25px 0px;
+    padding: 3px; }
+  .contenedorStaff .textoStaff {
+    margin: 25px 0px 50px 0px;
+    padding: 3px;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-style: double;
+    border-color: #e2e9da; }
+    .contenedorStaff .textoStaff .divStaff {
+      margin: 25px 0px 50px 0px;
+      background-color: #e2e9da;
+      width: 900px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      text-align: center; }
