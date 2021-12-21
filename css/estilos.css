@@ -3,11 +3,11 @@
   padding: 0px; }
 
 body {
-  margin: 2px 3px 1px 3px;
-  padding: 10px;
+  margin: 2px 3px 0px 3px;
+  padding: 10px 10px 0px 10px;
   font-family: 'Rubik', sans-serif;
   width: 1223px;
-  height: 100vh;
+  min-height: calc(100vh - 4rem);
   background-color: #e2e9da;
   background-image: url("../imagenes/PLANTILLA_VERDE.jpg"); }
 
@@ -19,8 +19,8 @@ a {
   text-decoration: none !important;
   color: black;
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  width: 150px;
+  font-size: 20px;
+  width: auto;
   height: 22px;
   transition: all 2s; }
 
@@ -43,13 +43,14 @@ h3 {
   .contenedor .barra {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; }
     .contenedor .barra .navegacion {
-      margin: 10px 150px 10px 150px;
+      width: 900px;
+      margin: 10px;
       display: flex;
       flex-direction: row;
-      align-content: space-around; }
+      justify-content: space-between; }
   .contenedor main {
     padding: 10px;
     margin: 15px;
@@ -63,10 +64,16 @@ h3 {
       display: flex;
       justify-content: center; }
     .contenedor main .consejos {
+      font-size: 32px;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: start; }
+      .contenedor main .consejos .consejoInd {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-content: center; }
   .contenedor .videoRedesComentarios {
     width: 1223px;
     margin: 15px;
@@ -79,6 +86,7 @@ h3 {
     .contenedor .videoRedesComentarios .redes {
       width: 350px;
       height: 300px;
+      font-size: 16px;
       display: flex;
       flex-wrap: nowrap;
       justify-items: start;
@@ -90,16 +98,20 @@ h3 {
     .contenedor .videoRedesComentarios .comentarios {
       width: 350px;
       height: 300px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 16px;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: center;
-      align-items: center;
-      justify-content: space-between; }
+      align-items: center; }
       .contenedor .videoRedesComentarios .comentarios .comentario {
         border: 1px;
         border-style: solid;
-        border-color: #498849; }
+        border-color: #498849;
+        margin-top: 10px;
+        margin-bottom: 10px; }
 
 .container-table {
   display: grid;
@@ -109,12 +121,12 @@ h3 {
 
 .piePagina {
   width: 1325px;
-  height: 40px;
+  height: 2rem;
   padding: 0px;
   margin: 0px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   background-color: #e2e9da; }
 
@@ -122,6 +134,7 @@ h3 {
   margin: 5px;
   width: 1325px;
   height: 100vh;
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -131,6 +144,7 @@ h3 {
     padding: 3px;
     width: 900px;
     height: auto;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -147,18 +161,21 @@ h3 {
   margin: 20px;
   width: 1325px;
   height: 100vh;
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   align-items: center; }
   .contenedorStaff #pstaff {
     width: 900px;
     margin: 50px 0px 25px 0px;
-    padding: 3px; }
+    padding: 3px;
+    font-size: 22px; }
   .contenedorStaff .textoStaff {
     margin: 25px 0px 50px 0px;
     padding: 3px;
     width: 900px;
     height: auto;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,3 +193,25 @@ h3 {
       justify-content: center;
       align-content: center;
       text-align: center; }
+
+.contenedorPlan {
+  margin: 40px;
+  width: 1325px;
+  height: 100vh;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contenedorPlan .textoPlan {
+    margin: 25px;
+    padding: 3px;
+    width: 900px;
+    height: auto;
+    line-height: 30px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-style: dashed;
+    border-color: #e2e9da; }
